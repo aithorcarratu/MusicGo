@@ -1,0 +1,243 @@
+[
+  {
+    "alias": "Victoria",
+    "correo": "victoria@gmail.com",
+    "contrasenia": "1111",
+    "biblioteca": [
+      {
+        "id": "CAN-003",
+        "tipo": "Cancion",
+        "titulo": "Into You",
+        "duracion": 244,
+        "artista": "Ariana Grande",
+        "album": "Dangerous Woman",
+        "genero": "Pop"
+      },
+      {
+        "id": "CAN-005",
+        "tipo": "Cancion",
+        "titulo": "From The Start",
+        "duracion": 169,
+        "artista": "Laufey",
+        "album": "Bewitched",
+        "genero": "Jazz Pop"
+      }
+    ],
+    "playlists": [
+      {
+        "nombre": "Pop Mezcla",
+        "audios": [
+          {
+            "id": "CAN-003",
+            "tipo": "Cancion",
+            "titulo": "Into You",
+            "duracion": 244,
+            "artista": "Ariana Grande",
+            "album": "Dangerous Woman",
+            "genero": "Pop"
+          }
+        ]
+      },
+      {
+        "nombre": "Para dormirr",
+        "audios": [
+          {
+            "id": "CAN-005",
+            "tipo": "Cancion",
+            "titulo": "From The Start",
+            "duracion": 169,
+            "artista": "Laufey",
+            "album": "Bewitched",
+            "genero": "Jazz Pop"
+          }
+        ]
+      }
+    ],
+    "productosComprados": [
+      {
+        "id": "PROD-001",
+        "tipo": "ProductoEspecial",
+        "nombre": "Pase VIP Digital de Ariana Grande",
+        "precio": 14.99,
+        "descripcion": "Acceso digital a contenido exclusivo de Ariana Grande con visuales, detrás de escenas y material extra",
+        "cantidadContenido": 0
+      },
+      {
+        "id": "PROD-201",
+        "tipo": "ArteVisual",
+        "nombre": "Arte Visual Oficial del Álbum de Rihanna",
+        "precio": 3.99,
+        "artistaVisual": "Rihanna",
+        "formato": "PNG",
+        "resolucion": "3000x3000",
+        "cantidadContenido": 0
+      },
+      {
+        "id": "PROD-202",
+        "tipo": "ArteVisual",
+        "nombre": "Fondo de Pantalla - K/DA",
+        "precio": 2.99,
+        "artistaVisual": "Riot Games",
+        "formato": "JPG",
+        "resolucion": "2400x3200",
+        "cantidadContenido": 0
+      }
+    ],
+    "tiempoEscuchado": 1726,
+    "totalCompras": 3
+  },
+  {
+    "alias": "Fabian",
+    "correo": "fabian@gmail.com",
+    "contrasenia": "1412",
+    "biblioteca": [
+      {
+        "id": "CAN-002",
+        "tipo": "Cancion",
+        "titulo": "Mantra",
+        "duracion": 136,
+        "artista": "Jennie",
+        "album": "Single",
+        "genero": "K-Pop / Pop"
+      },
+      {
+        "id": "CAN-004",
+        "tipo": "Cancion",
+        "titulo": "Fiebre",
+        "duracion": 192,
+        "artista": "Bad Gyal",
+        "album": "Slow Wine Mixtape",
+        "genero": "Dancehall / Urbano"
+      }
+    ],
+    "playlists": [
+      {
+        "nombre": "Para manejar",
+        "audios": [
+          {
+            "id": "CAN-002",
+            "tipo": "Cancion",
+            "titulo": "Mantra",
+            "duracion": 136,
+            "artista": "Jennie",
+            "album": "Single",
+            "genero": "K-Pop / Pop"
+          },
+          {
+            "id": "CAN-004",
+            "tipo": "Cancion",
+            "titulo": "Fiebre",
+            "duracion": 192,
+            "artista": "Bad Gyal",
+            "album": "Slow Wine Mixtape",
+            "genero": "Dancehall / Urbano"
+          }
+        ]
+      }
+    ],
+    "productosComprados": [
+      {
+        "id": "PROD-301",
+        "tipo": "PaqueteTopTen",
+        "nombre": "Paquete TopTen Pop",
+        "precio": 7.99,
+        "descripcion": "Contenido exclusivo de los top 10 artistas globales de Pop",
+        "categoria": "Pop",
+        "cantidadContenido": 10
+      },
+      {
+        "id": "PROD-302",
+        "tipo": "PaqueteTopTen",
+        "nombre": "Paquete TopTen Urbano y Dancehall",
+        "precio": 6.99,
+        "descripcion": "Contenido exclusivo de los top 10 artistas globales de Urbano y Dancehall",
+        "categoria": "Urbano",
+        "cantidadContenido": 10
+      }
+    ],
+    "tiempoEscuchado": 464,
+    "totalCompras": 2
+  },
+  {
+    "alias": "Marcel",
+    "correo": "qw@gmail.com",
+    "contrasenia": "12347",
+    "biblioteca": [
+      {
+        "id": "CAN-002",
+        "tipo": "Cancion",
+        "titulo": "Mantra",
+        "duracion": 136,
+        "artista": "Jennie",
+        "album": "Single",
+        "genero": "K-Pop / Pop"
+      },
+      {
+        "id": "CAN-003",
+        "tipo": "Cancion",
+        "titulo": "Into You",
+        "duracion": 244,
+        "artista": "Ariana Grande",
+        "album": "Dangerous Woman",
+        "genero": "Pop"
+      },
+      {
+        "id": "CAN-006",
+        "tipo": "Cancion",
+        "titulo": "Needed Me",
+        "duracion": 191,
+        "artista": "Rihanna",
+        "album": "ANTI",
+        "genero": "R\u0026B / Pop"
+      }
+    ],
+    "playlists": [
+      {
+        "nombre": "Mix Pop",
+        "audios": [
+          {
+            "id": "CAN-002",
+            "tipo": "Cancion",
+            "titulo": "Mantra",
+            "duracion": 136,
+            "artista": "Jennie",
+            "album": "Single",
+            "genero": "K-Pop / Pop"
+          },
+          {
+            "id": "CAN-006",
+            "tipo": "Cancion",
+            "titulo": "Needed Me",
+            "duracion": 191,
+            "artista": "Rihanna",
+            "album": "ANTI",
+            "genero": "R\u0026B / Pop"
+          }
+        ]
+      }
+    ],
+    "productosComprados": [
+      {
+        "id": "PROD-201",
+        "tipo": "ArteVisual",
+        "nombre": "Arte Visual Oficial del Álbum de Rihanna",
+        "precio": 3.99,
+        "artistaVisual": "Rihanna",
+        "formato": "PNG",
+        "resolucion": "3000x3000",
+        "cantidadContenido": 0
+      },
+      {
+        "id": "PROD-301",
+        "tipo": "PaqueteTopTen",
+        "nombre": "Paquete TopTen Pop",
+        "precio": 7.99,
+        "descripcion": "Contenido exclusivo de los top 10 artistas globales de Pop",
+        "categoria": "Pop",
+        "cantidadContenido": 10
+      }
+    ],
+    "tiempoEscuchado": 244,
+    "totalCompras": 2
+  }
+]
