@@ -5,26 +5,98 @@ import model.audio.Audio;
 import java.util.ArrayList;
 
 public class Biblioteca {
-    private ArrayList<Audio> audiosGuardados;
-    private ArrayList<Playlist> playlistGuardadas;
-    private ArrayList<Album> albumesGuardados;
+    // Atributos
+    private ArrayList<Audio> audios;
+    private ArrayList<Playlist> playlists;
+    private ArrayList<Album> albumes;
 
+    // Constructor
     public Biblioteca() {
-        audiosGuardados = new ArrayList<>();
-        playlistGuardadas = new ArrayList<>();
-        albumesGuardados = new ArrayList<>();
+        audios = new ArrayList<>();
+        playlists = new ArrayList<>();
+        albumes = new ArrayList<>();
     }
 
-    public ArrayList<Audio> getAudiosGuardados() {
-        return audiosGuardados;
+    // Getters
+    public ArrayList<Audio> getAudios() {
+        return audios;
     }
 
-    public ArrayList<Playlist> getPlaylistGuardadas() {
-        return playlistGuardadas;
+    public ArrayList<Playlist> getPlaylists() {
+        return playlists;
     }
 
-    public ArrayList<Album> getAlbumesGuardados() {
-        return albumesGuardados;
+    public ArrayList<Album> getAlbumes() {
+        return albumes;
     }
+
+    // Metodos
+
+    // [AUDIOS]
+    public void agregarAudio(Audio audio){
+        audios.add(audio);
+    }
+
+    public Audio buscarAudioId(String id){
+        for (Audio audio: audios){
+            if (audio.getId().equalsIgnoreCase(id)){
+                return audio;
+            }
+        }
+        return null;
+    }
+
+    public boolean contieneAudioId(String id){
+        return buscarAudioId(id) != null;
+    }
+
+    public int cantidadAudios(){
+        return audios.size();
+    }
+
+    // [PLAYLISTS]
+    public void agregarPlaylist(Playlist playlist){
+        playlists.add(playlist);
+    }
+
+    public Playlist buscarPlaylistNombre(String nombre){
+        for (Playlist playlist : playlists){
+            if (playlist.getNombre().equalsIgnoreCase(nombre)){
+                return playlist;
+            }
+        }
+        return null;
+    }
+
+    public boolean contienePlaylistNombre(String nombre){
+        return buscarPlaylistNombre(nombre) != null;
+    }
+
+    public int cantidadPlaylists(){
+        return playlists.size();
+    }
+
+    // [ALBUMES]
+    public void agregarAlbum(Album album){
+        albumes.add(album);
+    }
+
+    public Album buscarAlbumId(String id){
+        for (Album album: albumes){
+            if (album.getId().equalsIgnoreCase(id)){
+                return album;
+            }
+        }
+        return null;
+    }
+
+    public boolean contieneAlbumId(String id){
+        return buscarAlbumId(id) != null;
+    }
+
+    public int cantidadAlbumes(){
+        return albumes.size();
+    }
+
 }
 

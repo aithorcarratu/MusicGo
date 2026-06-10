@@ -1,8 +1,11 @@
 package model.audio;
 
+import model.interfaces.IDescargable;
+import model.interfaces.IReproducible;
+
 import java.time.LocalDate;
 
-public abstract class Audio {
+public abstract class Audio implements IReproducible, IDescargable {
     private String id;
     private String titulo;
     private int duracionSeg;
