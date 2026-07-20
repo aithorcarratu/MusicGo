@@ -9,14 +9,16 @@ public class Usuario {
     // Atributos
     private String alias;
     private String correo;
+    private String nombre;
     private String contrasenia;
     private Perfil perfil;
     private Estadistica estadisticas;
 
     // Constructor
-    public Usuario(String alias, String correo, String contrasenia) {
+    public Usuario(String alias, String correo, String nombre, String contrasenia) {
         this.alias = alias;
         this.correo = correo;
+        this.nombre = nombre;
         this.contrasenia = contrasenia;
         perfil = new Perfil();
         estadisticas = new Estadistica();
@@ -30,6 +32,8 @@ public class Usuario {
     public String getCorreo() {
         return correo;
     }
+
+    public String getNombre() { return nombre; }
 
     public String getContrasenia() {
         return contrasenia;
@@ -64,6 +68,8 @@ public class Usuario {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
+    
+    public void setNombre(String nombre) { this.nombre = nombre; }
 
     public void setContrasenia(String contrasenia) {
         this.contrasenia = contrasenia;

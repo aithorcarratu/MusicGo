@@ -13,10 +13,10 @@ public class Catalogo {
     private ArrayList<Producto> productos;
 
     // Constructor
-    public Catalogo(ArrayList<Audio> audios, ArrayList<Album> albumes, ArrayList<Producto> productos) {
-        audios = new ArrayList<>();
-        albumes = new ArrayList<>();
-        productos = new ArrayList<>();
+    public Catalogo() {
+        this.audios = new ArrayList<>();
+        this.albumes = new ArrayList<>();
+        this.productos = new ArrayList<>();
     }
 
     // Getters
